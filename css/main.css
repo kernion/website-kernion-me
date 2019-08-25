@@ -41,9 +41,13 @@ body {
 }
 
 /* links */
-a:link, a:visited, a:active, a:hover {
-  color: #C00;
-  text-decoration: none;
+a {
+  color: #C00000;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #F80000;
 }
 
 /* menu */
@@ -73,12 +77,12 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   text-transform: uppercase;
   font-weight: bold;
-  text-decoration: underline;
+  
 }
 
 h2 {
   font-weight: bold;
-  text-decoration: underline;
+  
 }
 
 h3 {
@@ -87,7 +91,7 @@ h3 {
 
 .header {
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .header > h1 {
@@ -116,7 +120,7 @@ h3 {
 
 /* footer */
 footer {
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
 }
 

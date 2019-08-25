@@ -4,6 +4,9 @@ title: Home
 ---
 
 <div class="home">
+<p>I'm an experienced technical writer and editor in Austin, Texas.</p> 
+<p>You can view or download my resume <a href="jkernion_resume.pdf" target="_blank">as a PDF</a>. You can also read my <a href="http://www.linkedin.com/in/jkernion/" target="_blank">LinkedIn profile</a>.</p>
+<p>I've password-protected the <a href="folio/">folio</a> page that includes my writing samples. If you're interested in viewing them, email me at "j AT kernion DOT me".</p>
 
   <ul class="posts">
     {% for post in paginator.posts %}
@@ -18,22 +21,6 @@ title: Home
     {% endfor %}
   </ul>
 
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      {% if page == 2 %}
-        <a class="page-link" href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">prv</a>
-      {% else %}
-        <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">prv</a>
-      {% endif %}
-    {% else %}
-      <span class="page-link">prv</span>
-    {% endif %}
-
-    {% if paginator.next_page %}
-      <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">nxt</a>
-    {% else %}
-      <span class="page-link">nxt</span>
-    {% endif %}
-  </div>
+ 
 
 </div>
