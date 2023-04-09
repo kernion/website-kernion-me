@@ -2,7 +2,6 @@
 title: "Juliette Kernion"
 description: "Resume and Portfolio Site"
 baseurl: ""
-url: "http://alixedi.github.io"
 
 # Build settings
 markdown: kramdown
