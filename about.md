@@ -1,38 +1,21 @@
 ---
 layout: page
-title: About This Site
+title: About Me
 permalink: /about/
 ---
 
-<p>My portfolio website looks pretty simple ... but the process of editing and publishing it is surprisingly complex.</p>
-
-<p>My plan was to use an easily customizable Jekyll theme with GitHub Pages to produce and publish a simple portfolio site. A couple of challenges arose:</p>
-<ul><li>I work primarily on a Windows 7 desktop at home. After numerous attempts, it became obvious that Ruby, which Jekyll requires, wouldn't play nice on this operating system.</li>
-<li>I wanted my writing samples password protected. Some of the docs aren't current, and I don't want users finding stale processes. Some are draft PDFs and my former employers might not like unattractive copies of their branded content made public. GitHub doesn't accommodate partial password protection of a website (to my knowledge).</li>
+<p>A few personal/professional things about me that don't fit elsewhere on this site:</p>
+<ul>
+<li>I believe one excellent way technical writers/tech comm teams can fit in with an engineering culture is to participate in company hackathons. In 2014, I persuaded my tech comm team at Bazaarvoice to create a hackathon team -- the first all-writer team. We won the "Closest to Reality" award for evolving a wizard-like site for SEO developer resources.</li>
+<li>I worked as a freelance film writer from 2005 to 2017. In 2006, I founded Slackerwood, a website focusing on Austin film news and events. It grew in size/audience until I was managing seven regular contributors plus guest writers/photographers. Slackerwood was underwritten by Austin Film Society from 2012-2014, and won an <em>Austin Chronicle</em> Best of Austin 2011 award for Best Austin Movie Blog. Publication ceased in 2015, although the archives are <a href="http://slackerwood.com">still available</a>.</li>
+<li>I also contributed reviews and features to Cinematical/Moviefone, Variety, Indiewire, SXSWorld Magazine, and Crooked Marquee.</li>
+<li>My favorite review is <em><a href="https://www.slackerwood.com/node/4313">Dawn of the Planet of the Apes</a></em>, written in a cranky editor's style. Can't imagine why I would pick that tone.</li>
+<li>I'm trying to learn Japanese on Duolingo. I've been working on this for two years so far. When I do go back to Tokyo someday, I should at least be able to order food more coherently and apologize more eloquently.</li>
 </ul>
-<p>You might wonder why I didn't use WordPress or a similar CMS. There have been moments when I wondered that too. This is a small, static website that doesn't require dynamic content management. In addition, my portfolio project has been an excellent way for me to maintain and improve my Jekyll and Git skills. And as my web admin tells me, hacking concerns often mean frequent CMS updates and upgrades.</p> 
-<p><strong>How it all works</strong></p>
-<p>Full disclosure: A Linux administrator/web admin guided me through a lot of the setup behind this process. I couldn't have devised the workarounds myself. I want to acknowledge and express my gratitude for this assistance.</p>
+<p>About this site:</p>
+<p>This portfolio website is sourced on GitHub and uses GitHub Pages with a Jekyll theme called <a href="https://jekyllthemes.io/theme/typewriter">Typewriter</a>. I use Visual Studio Code to edit and publish content. I have Jekyll installed on a Windows 10 computer to preview content before publishing.</p>
 
-<p>Follow along carefully -- the file management is a little bit of a shell game:</p>
 
-<ol><li>I access the files for this site from a network-attached storage (NAS) server.</li>
-
-<li>I edit the files in a text editor on a Windows 7 desktop computer.</li>
-
-<li>Jekyll is on a Linux server. I log into the Linux server and run Jekyll to serve a local draft of my website, so I can preview changes in a web browser.</li>
-
-<li>I use git to manage changes to my files. The git repo lives on the Linux server. I use GitHub Desktop on my Windows computer for commits and other simple git operations.</li>
-
-<li>To publish my changes to my kernion.me website, I use SSH to access the web server, then use git commands to pull in the changes.</li></ol>
-
-<p>The workflow above means that while I'm working on the seemingly simple page you're reading, I often have windows open for the text editor, an SSH dialog with the Linux server running Jekyll, a web browser, a GitHub editor, and another SSH dialog to kernion.me when I'm publishing the changes.</p>
-<p>Advantages of being a technical writer are that first of all, I documented the processes and commands I need so I don't forget how everything works, and second of all, I'm used to juggling a lot of open windows at once.</p>
-
-<p>My Jekyll theme is <a href="https://jekyllthemes.io/theme/typewriter">Typewriter</a>, a fun look that didn't require a lot of editing on my end.</p>
-
-<p>Would I replicate this setup in the future? Certainly I wouldn't recommend it to others. I hear  Ruby runs successfully on Windows 10, although I haven't yet tried. If I used a Mac or a Linux personal workstation, this page would be a lot shorter. But I'm committed to the current process for continuing edits, because the results are worthwhile.</p>
-<p>Next time, I'll tell you where the music I listen to at the gym comes from. (Hint: It's slightly more nuanced than "Spotify.")</p>
 
 
 
