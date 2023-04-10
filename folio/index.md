@@ -4,7 +4,7 @@ title: Writing and Editing Samples
 permalink: /folio/
 ---
 
-<h2>Writing</h2>
+
 
 <p><strong>Note</strong>: If you're seeking a specific type of writing that isn't on the following list, contact me at "j AT kernion DOT me". Some of my samples can't be published here.</p>
   <h2>Writing</h2>
