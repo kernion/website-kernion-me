@@ -1,7 +1,6 @@
 # Site settings
 title: "Juliette Kernion"
-description: "Resume and Portfolio Site"
-baseurl: "/"
+description: "Resume and Portfolio"
 
 # Build settings
 markdown: kramdown
